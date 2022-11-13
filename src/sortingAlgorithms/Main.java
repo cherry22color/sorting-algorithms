@@ -20,11 +20,12 @@ public class Main {
 //                ex.setVisible(true);
 //            }
 //        });
-
         int[] unSortedArray = {2, 1, 4, 8, 7, 5, 6, 3};
         ISortingAlgorithm selectSort = new SelectionSort();
-        selectSort.sort(unSortedArray);
-        System.out.println(Arrays.toString(unSortedArray));
+        // selectSort.sort(unSortedArray);
+        ISortingAlgorithm insertSort = new InsertionSort();
+         insertSort.sort(unSortedArray);
 
+        System.out.println( Arrays.toString(unSortedArray));
     }
 }

@@ -21,7 +21,7 @@ public class BubbleSort implements ISortingAlgorithm {
                 }
             }
         } while (needIteration);
-    }
+     }
 
 
     public void swap(int[] array, int ind1, int ind2) {

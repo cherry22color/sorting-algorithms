@@ -9,6 +9,7 @@ public class SelectionSort implements ISortingAlgorithm {
     // проходим по массиву
     // находим минимальный элемент, ставим его на место первого в выбранной части массива
     // повторять до конца массива
+    // так же можно делать по максимальному значению
 
     @Override
     public void sort(int[] numbers) {
@@ -27,5 +28,6 @@ public class SelectionSort implements ISortingAlgorithm {
             numbers[index] = numbers[indexMin];
             numbers[indexMin] = buffer;
         }
-    }
+     }
+
 }
